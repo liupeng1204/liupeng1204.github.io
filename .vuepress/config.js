@@ -1,7 +1,7 @@
 module.exports = {
     "title": "回忆如风",
     "description": "人生如梦，回忆如风。",
-    "dest": "public",
+    "dest": "dist",
     "head": [
         [
             "link",

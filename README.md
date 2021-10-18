@@ -47,6 +47,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: dist
+  target-branch: gh-pages # 集成发布到gh-pages上
   github_token: $GITHUB_TOKEN # 在 GitHub 中生成，用于允许 Travis 向你的仓库推送代码。在 Travis 的项目设置页面进行配置，设置为 secure variable
   keep_history: true
   on:

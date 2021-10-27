@@ -6,6 +6,11 @@ jobs:
     branches:
       only:
         - master
+    filters:
+      ## 分支过滤，很重要，不然gh-pages 会报错，
+      branches:
+        only:
+          - master
     steps:
       - add_ssh_keys:
           fingerprints:

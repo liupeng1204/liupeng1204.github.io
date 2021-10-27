@@ -30,3 +30,7 @@ vim /etc/hosts
 
 ```
 :::
+
+::: details git命令大全
+![git命令大全](/img/git-directive.png)
+:::

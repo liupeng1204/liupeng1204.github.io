@@ -5,4 +5,4 @@ categories:
  - me
 ---
 
-![An image](./works_pic.png)
+![An image](../../../.vuepress/public/img/works_pic.png)

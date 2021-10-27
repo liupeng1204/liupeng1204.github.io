@@ -10,4 +10,4 @@ keys:
  - '0b5331e0694b772a70e12ae948f097f0'
 ---
 
-![An image](../../../.vuepress/public/img/resume.png)
+![An image](/img/resume.png)

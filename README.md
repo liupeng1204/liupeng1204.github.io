@@ -6,9 +6,7 @@
     
 ## Circle CI
 ### 配置参考[CircleCI配置](https://blog.csdn.net/zy1281539626/article/details/114832468 'CircleCI配置')
-::: tip
-(Tips: Travis CI初期免费构建，后期收费，故采用CircleCI构建)
-:::
+Tips: Travis CI初期免费构建，后期收费，故换用CircleCI构建
 
 ## Travis CI
 ### 1. 项目根目录增加deploy.sh文件
@@ -32,7 +30,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
- git push -f git@github.com:liupeng1204/liupeng.github.io.git master
+ git push -f git@github.com:liupeng1204/liupeng1204.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
@@ -62,9 +60,9 @@ deploy:
 ```
 ### 3.登录travis官网https://app.travis-ci.com/，通过github账号授权；
     3.1 https://app.travis-ci.com/account/repositories 邮件active认证
-    3.2 选择io项目，https://app.travis-ci.com/github/liupeng1204/liupeng.github.io/settings 配置GITHUB_TOKEN
+    3.2 选择io项目，https://app.travis-ci.com/github/liupeng1204/liupeng1204.github.io/settings 配置GITHUB_TOKEN
 
-## GitHub Pages 配置博客主页 https://github.com/liupeng1204/liupeng.github.io/settings/pages
+## GitHub Pages 配置博客主页 https://github.com/liupeng1204/liupeng1204.github.io/settings/pages
 ![构建](./.vuepress/public/img/github_pages.png)
 ## push到git，触发travis对应项目自动构建
 ![构建](./.vuepress/public/img/travis_building.png)

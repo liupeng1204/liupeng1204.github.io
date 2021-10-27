@@ -71,6 +71,10 @@ module.exports = {
                     link: '/blogs/me/resume/',
                     icon: 'fab fa-black-tie'
                 }, {
+                    text: '作品展示',
+                    link: '/blogs/me/works/',
+                    icon: 'fas fa-images'
+                }, {
                     text: 'GitHub',
                     icon: 'fab fa-github',
                     link: 'https://github.com/liupeng1204',

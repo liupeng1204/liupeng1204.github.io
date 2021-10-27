@@ -3,6 +3,12 @@
 ## VuePress
 参考 https://vuepress.vuejs.org/zh/guide/getting-started.html
     https://vuepress-theme-reco.recoluan.com/views/2.x/
+    
+## Circle CI
+### 配置参考[CircleCI配置](https://blog.csdn.net/zy1281539626/article/details/114832468 'CircleCI配置')
+::: tip
+(Tips: Travis CI初期免费构建，后期收费，故采用CircleCI构建)
+:::
 
 ## Travis CI
 ### 1. 项目根目录增加deploy.sh文件

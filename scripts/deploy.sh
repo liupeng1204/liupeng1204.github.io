@@ -38,7 +38,7 @@ ls -la
 
 # 把所有的文件添加到git
 git add -A
-git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
+git commit --allow-empty -m "Deploy to GitHub pages"
 git push --force --quiet origin gh-pages
 
 # 资源回收，删除临时分支与目录

@@ -20,77 +20,76 @@ module.exports = {
     ],
     "theme": "reco",
     "themeConfig": {
-        "nav": [],
-        // "nav": [
-        //     {
-        //         "text": "主页",
-        //         "link": "/",
-        //         "icon": "reco-home"
-        //     },
-        //     {
-        //         "text": "时间轴",
-        //         "link": "/timeline/",
-        //         "icon": "reco-date"
-        //     }, {
-        //         text: '更多',
-        //         icon: "reco-other",
-        //         items: [{
-        //             text: '技术整理',
-        //             items: [
-        //                 {
-        //                     text: 'React',
-        //                     link: '/docs/react/',
-        //                     icon: 'fab fa-react'
-        //                 }, {
-        //                     text: 'Vue',
-        //                     link: '/docs/vue/',
-        //                     icon: 'fab fa-vuejs'
-        //                 }, {
-        //                     text: '笔记',
-        //                     link: '/docs/note/',
-        //                     icon: 'fas fa-edit'
-        //                 }
-        //             ]
-        //         }, {
-        //             text: '生活记录',
-        //             items: [{
-        //                 text: '随感',
-        //                 link: '/blogs/life/essay/',
-        //                 icon: 'far fa-heart'
-        //             }]
-        //         }, {
-        //             text: '其他',
-        //             items: [{
-        //                 text: '博客相关',
-        //                 link: '/blogs/other/blog/'
-        //             }]
-        //         }]
-        //     }, {
-        //         text: '关于我',
-        //         items: [{
-        //             text: '简历',
-        //             link: '/blogs/me/resume/',
-        //             icon: 'fab fa-black-tie'
-        //         }, {
-        //             text: '作品展示',
-        //             link: '/blogs/me/works/',
-        //             icon: 'fas fa-images'
-        //         }, {
-        //             text: 'GitHub',
-        //             icon: 'fab fa-github',
-        //             link: 'https://github.com/liupeng1204',
-        //             target: '_blank'
-        //         }, {
-        //             text: '微信',
-        //             link: '/blogs/me/wechat/',
-        //             icon: 'fab fa-weixin'
-        //         }, {
-        //             text: 'QQ',
-        //             link: '/blogs/me/qq/',
-        //             icon: 'fab fa-qq'
-        //         }]
-        //     }
-        // ],
+        "nav": [
+            {
+                "text": "主页",
+                "link": "/",
+                "icon": "reco-home"
+            },
+            {
+                "text": "时间轴",
+                "link": "/timeline/",
+                "icon": "reco-date"
+            }, {
+                text: '更多',
+                icon: "reco-other",
+                items: [{
+                    text: '技术整理',
+                    items: [
+                        {
+                            text: 'React',
+                            link: '/docs/react/',
+                            icon: 'fab fa-react'
+                        }, {
+                            text: 'Vue',
+                            link: '/docs/vue/',
+                            icon: 'fab fa-vuejs'
+                        }, {
+                            text: '笔记',
+                            link: '/docs/note/',
+                            icon: 'fas fa-edit'
+                        }
+                    ]
+                }, {
+                    text: '生活记录',
+                    items: [{
+                        text: '随感',
+                        link: '/blogs/life/essay/',
+                        icon: 'far fa-heart'
+                    }]
+                }, {
+                    text: '其他',
+                    items: [{
+                        text: '博客相关',
+                        link: '/blogs/other/blog/'
+                    }]
+                }]
+            }, {
+                text: '关于我',
+                items: [{
+                    text: '简历',
+                    link: '/blogs/me/resume/',
+                    icon: 'fab fa-black-tie'
+                }, {
+                    text: '作品展示',
+                    link: '/blogs/me/works/',
+                    icon: 'fas fa-images'
+                }, {
+                    text: 'GitHub',
+                    icon: 'fab fa-github',
+                    link: 'https://github.com/liupeng1204',
+                    target: '_blank'
+                }, {
+                    text: '微信',
+                    link: '/blogs/me/wechat/',
+                    icon: 'fab fa-weixin'
+                }, {
+                    text: 'QQ',
+                    link: '/blogs/me/qq/',
+                    icon: 'fab fa-qq'
+                }]
+            }
+        ],
         "sidebar": {
             "/docs/theme-reco/": [
                 "",
@@ -123,12 +122,12 @@ module.exports = {
                 "link": "https://app.circleci.com/"
             },
         ],
-        "logo": "/logo.png",
+        // "logo": "/logo.png",
         "search": true,
         "searchMaxSuggestions": 10,
         "lastUpdated": "Last Updated",
         "author": "刘鹏",
-        "authorAvatar": "/avatar.png",
+        // "authorAvatar": "/avatar.png",
         "record": "xxxx",
         "startYear": "2019"
     },

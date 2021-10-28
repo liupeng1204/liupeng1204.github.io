@@ -95,11 +95,10 @@ module.exports = {
                 {
                     title: '前端学习笔记',
                     children: [
-                        ''
+                        "develop/",
+                        "interview/"
                     ]
-                },
-                "develop/",
-                "interview/"
+                }
             ]
         },
         "type": "blog",

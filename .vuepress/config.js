@@ -23,7 +23,7 @@ module.exports = {
         "nav": [
             {
                 "text": "主页",
-                "link": "/",
+                "link": "",
                 "icon": "reco-home"
             },
             {

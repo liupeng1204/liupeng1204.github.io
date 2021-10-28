@@ -125,7 +125,7 @@ module.exports = {
         "logo": "/logo.png",
         "search": true,
         "searchMaxSuggestions": 10,
-        "lastUpdated": "Last Updated",
+        "lastUpdated": "更新于",
         "author": "刘鹏",
         "authorAvatar": "/avatar.png",
         "record": "xxxx",

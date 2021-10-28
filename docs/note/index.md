@@ -8,6 +8,10 @@ tags:
  - 笔记
 ---
 
+::: details 前端复习
+![React328](/img/Vue2.0-知识点整理.png)
+:::
+
 ::: details 端口占用
 ```shell script
 sudo lsof -i:端口号

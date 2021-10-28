@@ -91,11 +91,15 @@ module.exports = {
             }
         ],
         "sidebar": {
-            "/docs/theme-reco/": [
-                "",
-                "theme",
-                "plugin",
-                "api"
+            "/docs/note/": [
+                {
+                    title: '前端学习笔记',
+                    children: [
+                        ''
+                    ]
+                },
+                "develop/",
+                "interview/"
             ]
         },
         "type": "blog",
@@ -126,7 +130,7 @@ module.exports = {
         "search": true,
         "searchMaxSuggestions": 10,
         "lastUpdated": "更新于",
-        "author": "刘鹏",
+        "author": "liupeng1204",
         "authorAvatar": "/avatar.png",
         "record": "xxxx",
         "startYear": "2019"

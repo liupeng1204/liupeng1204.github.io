@@ -99,7 +99,7 @@ module.exports = {
                     ]
                 },
                 // "",
-                "develop/",
+                // "develop/",
                 // "interview/"
             ]
         },

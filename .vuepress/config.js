@@ -23,7 +23,7 @@ module.exports = {
         "nav": [
             {
                 "text": "主页",
-                "link": "",
+                "link": "/",
                 "icon": "reco-home"
             },
             {
@@ -95,11 +95,12 @@ module.exports = {
                 {
                     title: '前端学习笔记',
                     children: [
-                        "",
-                        "develop/",
-                        "interview/"
+                        ''
                     ]
-                }
+                },
+                // "",
+                "develop/",
+                "interview/"
             ]
         },
         "type": "blog",

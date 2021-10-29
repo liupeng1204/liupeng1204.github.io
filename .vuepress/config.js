@@ -90,19 +90,20 @@ module.exports = {
                 }]
             }
         ],
-        "sidebar": {
-            "/docs/note/": [
-                {
-                    title: '前端学习笔记',
-                    children: [
-                        ''
-                    ]
-                },
-                // "",
-                "develop/",
-                "interview/"
-            ]
-        },
+        "sidebar": "auto",
+        // "sidebar": {
+        //     "/docs/note/": [
+        //         {
+        //             title: '前端学习笔记',
+        //             children: [
+        //                 ''
+        //             ]
+        //         },
+        //         // "",
+        //         "develop/",
+        //         "interview/"
+        //     ]
+        // },
         "type": "blog",
         "blogConfig": {
             "category": {

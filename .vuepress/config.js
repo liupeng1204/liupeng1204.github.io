@@ -97,10 +97,12 @@ module.exports = {
                     children: [
                         ''
                     ]
-                },
-                {
-                    title: '开发问题',
+                }, {
+                    title: '开发常见问题',
                     path: '/docs/note/develop/'
+                }, {
+                    title: '知识点总结',
+                    path: '/docs/note/interview/'
                 }
             ]
         },

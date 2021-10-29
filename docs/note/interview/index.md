@@ -10,7 +10,7 @@ tags:
 ---
 
 ::: details 前端复习
-
+![React328](/img/Vue2.0-知识点整理.png)
 :::
 
 ::: details 【前端面试】什么是纯函数？

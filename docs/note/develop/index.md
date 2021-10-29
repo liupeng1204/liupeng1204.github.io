@@ -17,7 +17,7 @@ sudo kill -9 pid
 :::
 
 ::: details git命令大全
-
+![git命令大全](/img/git-directive.png)
 :::
 
 ::: details github访问不了

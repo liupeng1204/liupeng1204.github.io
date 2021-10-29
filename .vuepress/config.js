@@ -98,9 +98,7 @@ module.exports = {
                         ''
                     ]
                 },
-                // "",
-                // "develop/",
-                // "interview/"
+                "develop/"
             ]
         },
         "type": "blog",

@@ -31,5 +31,6 @@ vim /etc/hosts
 140.82.112.4    github.com
 199.232.69.194  github.global.ssl.fastly.net
 ...
+```
 
 

@@ -9,5 +9,5 @@ tags:
 ---
 
 ::: details React328
-![React328](/img/React328.png)
+
 :::

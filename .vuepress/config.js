@@ -98,7 +98,10 @@ module.exports = {
                         ''
                     ]
                 },
-                "develop/"
+                {
+                    title: '开发问题',
+                    path: '/docs/note/develop/'
+                }
             ]
         },
         "type": "blog",

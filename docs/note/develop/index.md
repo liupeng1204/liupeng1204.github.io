@@ -14,7 +14,7 @@ tags:
 :::
 
 ::: details git命令大全
-![git命令大全](/img/git-directive.png)
+![git命令大全](../../../.vuepress/public/img/git-directive.png)
 :::
 
 ::: details github访问不了

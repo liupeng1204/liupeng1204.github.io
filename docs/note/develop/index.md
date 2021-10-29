@@ -10,7 +10,7 @@ tags:
 ---
 
 ::: details 端口占用
-
+123
 :::
 
 ::: details git命令大全
@@ -18,11 +18,7 @@ tags:
 :::
 
 ::: details github访问不了
-https://websites.ipaddress.com/github.com
-https://websites.ipaddress.com/github.global.ssl.fastly.net
-
 获取上述2个地址查询的ip，替换本地hosts地址映射
-
 :::
 
 

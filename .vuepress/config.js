@@ -90,27 +90,19 @@ module.exports = {
                 }]
             }
         ],
-        sidebar: {
-            '/docs/theme-reco/': [
-                '',
-                'theme',
-                'plugin',
-                'api'
+        "sidebar": {
+            "/docs/note/": [
+                {
+                    title: '前端学习笔记',
+                    children: [
+                        ''
+                    ]
+                },
+                // "",
+                "develop/",
+                // "interview/"
             ]
         },
-        // "sidebar": {
-        //     "/docs/note/": [
-        //         {
-        //             title: '前端学习笔记',
-        //             children: [
-        //                 ''
-        //             ]
-        //         },
-        //         // "",
-        //         "develop/",
-        //         "interview/"
-        //     ]
-        // },
         "type": "blog",
         "blogConfig": {
             "category": {

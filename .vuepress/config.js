@@ -95,14 +95,17 @@ module.exports = {
                 {
                     title: '前端学习笔记',
                     children: [
-                        ''
+                        {
+                            title: '介绍',
+                            path: '/docs/note/'
+                        }, {
+                            title: '开发常见问题',
+                            path: '/docs/note/develop/'
+                        }, {
+                            title: '知识点总结',
+                            path: '/docs/note/interview/'
+                        }
                     ]
-                }, {
-                    title: '开发常见问题',
-                    path: '/docs/note/develop/'
-                }, {
-                    title: '知识点总结',
-                    path: '/docs/note/interview/'
                 }
             ]
         },

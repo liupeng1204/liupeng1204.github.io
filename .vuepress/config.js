@@ -103,7 +103,7 @@ module.exports = {
                             title: '开发常见问题',
                             path: '/docs/note/develop/'
                         }, {
-                            title: '知识点总结',
+                            title: '知识点整理',
                             path: '/docs/note/interview/'
                         }
                     ]

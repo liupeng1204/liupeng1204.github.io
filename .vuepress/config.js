@@ -61,7 +61,8 @@ module.exports = {
                     text: '其他',
                     items: [{
                         text: '博客相关',
-                        link: '/blogs/other/blog/'
+                        link: '/blogs/other/blog/',
+                        icon: 'fas fa-blog'
                     }]
                 }]
             }, {

@@ -8,10 +8,14 @@ tags:
  - Vue
 ---
 
+::: details Vue生命周期
+![img](/img/vue生命周期.png)
+:::
+
 ::: details Vue269
-![React328](/img/Vue269.png)
+![img](/img/Vue269.png)
 :::
 
 ::: details Vue2.0-知识点整理
-![React328](/img/Vue2.0-知识点整理.png)
+![img](/img/Vue2.0-知识点整理.png)
 :::

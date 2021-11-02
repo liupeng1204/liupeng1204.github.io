@@ -68,6 +68,54 @@ console.log(_person)
 ```
 :::
 
+::: details html5的新特性
+```text 
+一、绘画 canvas
+
+HTML5 标签用于绘制图像(通过脚本，通常是 JavaScript)。
+
+二、用于媒介回放的video和audio元素
+
+HTML5 DOM 为audio和video元素提供了方法、属性和事件。
+
+这些方法、属性和事件允许您使用 JavaScript 来操作audio和video元素。
+
+三、本地离线存储localStorage长期存储数据，浏览器关闭后数据不丢失
+
+localStorage ：没有时间限制的数据存储
+
+四、sessionStorage的数据在浏览器关闭后自动删除
+
+sessionStorage ：针对一个session的数据存储
+
+五、语意化更好的内容元素，比如 article、footer、header、nav、section
+
+1. 标签定义外部的内容。
+
+2. 标签定义文档或者文档的一部分区域的页眉。 元素应该作为介绍内容或者导航链接栏的容器。
+
+3.Nav元素可以用作页面导航的链接组，在导航链接组里面有很多的链接，点击每个链接可以链接到其他页面或者当前页面的其他部分。
+
+4.section是带有语义的标签。
+
+六、表单控件，calendar、date、time、email、url、search
+
+七、新的技术webworker, websocket, Geolocation
+```
+:::
+
+::: details es6的新特性
+```text 
+1.let const
+2.解构
+3.模板字符串
+4.箭头函数
+5.promise
+6.async/await，比promise更好的解决了回调地狱。
+7.Set
+```
+:::
+
 ::: details 前端性能优化方案
 ```text 
 三个方面来说明前端性能优化

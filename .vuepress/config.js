@@ -104,7 +104,15 @@ module.exports = {
                             path: '/docs/note/develop/'
                         }, {
                             title: '知识点整理',
-                            path: '/docs/note/interview/'
+                            children: [
+                                {
+                                    title: 'JS基础',
+                                    path: '/docs/note/interview/js/'
+                                }, {
+                                    title: 'webpack相关',
+                                    path: '/docs/note/interview/webpack/'
+                                }
+                            ]
                         }
                     ]
                 }

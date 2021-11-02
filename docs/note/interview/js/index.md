@@ -1,4 +1,4 @@
-## 知识点整理
+## JS基础
 
 ::: details 原型和原型链
 ```text 
@@ -16,13 +16,35 @@ a.__proto__ === Array.prototype; // true
 ```
 :::
 
-::: details new一个对象背后的过程
-```text
+::: details new一个对象背后的过程(手动实现一个new)
+```text 
 1.创建一个空对象
 2.给对象设置__proto__,值为构造函数对象的prototype属性值,    this.__proto__=Fn.prototype
 3.执行构造函数体(给对象添加属性\方法)
 
 tips: 理解原型和原型链即可理解new一个对象背后的过程
+```
+```js 
+// 手动实现一个new
+function myNew (fun, ...arg) {
+    // 创建一个新对象且将其隐式原型指向构造函数原型
+    let obj = {
+        __proto__: fun.prototype 
+    }
+    // 执行构造函数
+    fun.apply(obj, arg)
+    
+    // 返回该对象
+    return obj
+}
+
+function Person (name, age) {
+    this.name = name ;
+    this.age = age
+}
+
+let _person = myNew(Person, 'huang', '21')
+console.log(_person)
 ```
 :::
 

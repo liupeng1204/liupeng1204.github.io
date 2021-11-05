@@ -215,6 +215,6 @@ function throttle(fn,delay) {
 :::
 
 ::: details 网络协议对应层级
-![network_protocol](/img/network_protocol.png.png)
+![network_protocol](/img/network_protocol.png)
 :::
 

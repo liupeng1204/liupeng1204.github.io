@@ -111,6 +111,9 @@ module.exports = {
                                 }, {
                                     title: 'webpack相关',
                                     path: '/docs/note/interview/webpack/'
+                                }, {
+                                    title: 'Typescript',
+                                    path: '/docs/note/interview/typescript/'
                                 }
                             ]
                         }

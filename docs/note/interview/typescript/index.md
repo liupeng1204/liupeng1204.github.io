@@ -18,7 +18,7 @@
 
 2.如何定义装饰器  
 装饰器本身其实就是一个函数，理论上忽略参数的话，任何函数都可以当做装饰器使用。
-```typescript
+```typescript 
 // helloword.ts
 
 function helloWord(target: any) {

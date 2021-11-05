@@ -102,20 +102,6 @@ module.exports = {
                         }, {
                             title: '开发常见问题',
                             path: '/docs/note/develop/'
-                        }, {
-                            title: '知识点整理',
-                            children: [
-                                {
-                                    title: 'JS基础',
-                                    path: '/docs/note/interview/js/'
-                                }, {
-                                    title: 'webpack相关',
-                                    path: '/docs/note/interview/webpack/'
-                                }, {
-                                    title: 'Typescript',
-                                    path: '/docs/note/interview/typescript/'
-                                }
-                            ]
                         }
                     ]
                 }

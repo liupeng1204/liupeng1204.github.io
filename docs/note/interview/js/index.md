@@ -215,7 +215,7 @@ function throttle(fn,delay) {
 :::
 
 ::: details 网络协议对应层级
-![network_protocol](/img/network_protocol.png)
+![img](/img/network-protocol.png)
 :::
 
 ::: details HTTPS与HTTP的一些区别

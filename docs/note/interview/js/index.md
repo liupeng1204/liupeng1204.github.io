@@ -214,7 +214,9 @@ function throttle(fn,delay) {
 ```
 :::
 
-
+::: details 网络协议对应层级
+![network_protocol](/img/network_protocol.png)
+:::
 
 ::: details HTTPS与HTTP的一些区别
 >1.HTTPS协议需要到CA申请证书，一般免费证书很少，需要交费。  

@@ -109,7 +109,10 @@ module.exports = {
                                     title: 'JS基础',
                                     path: '/docs/note/interview/js/'
                                 }, {
-                                    title: 'webpack相关',
+                                    title: 'http协议',
+                                    path: '/docs/note/interview/http/'
+                                }, {
+                                    title: 'webpack',
                                     path: '/docs/note/interview/webpack/'
                                 }, {
                                     title: 'Typescript',

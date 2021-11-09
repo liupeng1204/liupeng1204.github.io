@@ -194,3 +194,82 @@ function throttle(fn,delay) {
 ```
 :::
 
+::: details for in 和 for of 的区别
+1.for...in 循环：只能获得对象的键名，不能获得键值  
+  for...of 循环：允许遍历获得键值
+```js  
+var arr = ['red', 'green', 'blue']
+ 
+for(let item in arr) {
+  console.log('for in item', item)
+}
+/*
+  for in item 0
+  for in item 1
+  for in item 2
+*/
+ 
+for(let item of arr) {
+  console.log('for of item', item)
+}
+/*
+  for of item red
+  for of item green
+  for of item blue
+*/
+```
+
+2.对于普通对象，没有部署原生的 iterator 接口，直接使用 for...of 会报错
+```js 
+var obj = {
+   'name': 'Jim Green',
+   'age': 12
+ }
+ 
+ for(let key of obj) {
+   console.log('for of obj', key)
+ }
+ // Uncaught TypeError: obj is not iterable
+```
+可以使用 for...in 循环遍历键名
+```js 
+for(let key in obj) {
+   console.log('for in key', key)
+ }
+ /*
+   for in key name
+   for in key age
+ */
+
+```
+
+3.forEach 循环无法中途跳出，break 命令或 return 命令都不能奏效;
+  for...of 循环可以与break、continue 和 return 配合使用，跳出循环
+```js 
+let arr = [1, 2, 3, 5, 9]
+arr.forEach(item => {
+  if(item % 2 === 0) {
+    return
+  }
+  console.log('item', item)
+})
+/*
+  item 1
+  item 3
+  item 5
+  item 9
+*/
+```
+
+```js 
+for(let item of arr) {
+   if(item % 2 === 0) {
+     break
+   }
+   console.log('item', item)
+ }
+ // item 1
+```
+
+:::
+

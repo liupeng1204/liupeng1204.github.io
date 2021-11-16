@@ -40,6 +40,10 @@
 ```
 :::
 
+::: details 数字签名
+[What is a Digital Signature?](http://www.youdzone.com/signature.html)
+:::
+
 ::: details http协议中301/302/304的区别
 ```text 
 301 Moved Permanently 永久移动。是指请求的资源已被永久的移动到新的URL，返回信息会包括新的URL，浏览器还会自动定向到新的URL。今后任何新的请求都应该使用新的URL来代替。  

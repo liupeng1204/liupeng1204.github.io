@@ -119,6 +119,9 @@ module.exports = {
                                     path: '/docs/note/interview/typescript/'
                                 }
                             ]
+                        }, {
+                            title: 'LeetCode算法题',
+                            path: '/docs/note/leetcode/'
                         }
                     ]
                 }

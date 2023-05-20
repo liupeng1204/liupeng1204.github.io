@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "author": "liupeng",
   "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build .",
-    "env": "$env:NODE_OPTIONS=\"--openssl-legacy-provider\""
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev . --open --host \"localhost\"",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build ."
   },
   "devDependencies": {
     "vuepress": "1.8.2",

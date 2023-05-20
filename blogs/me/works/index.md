@@ -8,6 +8,14 @@ tags:
 ---
 
 
+## 全时
+### 全时_Rooms
+![An image](/img/works/全时_Rooms.png)
+### 全时_云会议
+![An image](/img/works/全时_云会议.png)
+### 全时_云会议_云文档
+![An image](/img/works/全时_云会议_云文档.png)
+
 ## 科天云
 ### 科天云_章鱼会中PC_会中文档
 ![An image](/img/works/科天云_章鱼会中PC_会中文档.png)
@@ -21,16 +29,6 @@ tags:
 ![An image](/img/works/科天云_华星会管H5_2.png)
 ### 科天云_华星会管H5_3
 ![An image](/img/works/科天云_华星会管H5_3.png)
-
-## 阅历数据
-### 阅历数据_阅家校教师管理系统_WebIM
-![An image](/img/works/阅历数据_阅家校教师管理系统_WebIM.png)
-### 阅历数据_教委驾驶舱_学生档案
-![An image](/img/works/阅历数据_教委驾驶舱_学生档案.png)
-### 阅历数据_阅家校发布平台_文章列表
-![An image](/img/works/阅历数据_阅家校发布平台_文章列表.png)
-### 阅历数据_阅家校运营H5
-![An image](/img/works/阅历数据_阅家校运营H5.png)
 
 ## 宝信软件
 ### 宝信_欧冶电商_首页大屏

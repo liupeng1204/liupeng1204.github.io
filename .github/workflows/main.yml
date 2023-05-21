@@ -21,7 +21,7 @@ jobs:
 
       # 生成静态文件
       - name: Build
-        run: set NODE_OPTIONS=--openssl-legacy-provider && npm install && yarn build
+        run: yarn build
 
       # 部署到 GitHub Pages
       - name: Deploy

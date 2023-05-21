@@ -24,7 +24,7 @@ jobs:
       - name: Build
         with:
           node-version: "14.x"
-        run: npm install && yarn build
+      - run: npm install && yarn build
 
       # 部署到 GitHub Pages
       - name: Deploy

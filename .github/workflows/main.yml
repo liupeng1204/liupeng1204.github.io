@@ -21,7 +21,7 @@ jobs:
           persist-credentials: false
 
       - name: UseNode
-          uses: actions/setup-node@v2.5.1
+          uses: actions/setup-node@v2
           with:
             node-version: 14 # node版本
 

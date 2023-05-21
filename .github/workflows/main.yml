@@ -22,11 +22,9 @@ jobs:
 
       # 生成静态文件
       - name: Build
-        steps:
-          - run: npm install
-          - run: yarn build
-            with:
-              node-version: "14.x"
+        run: npm install && yarn build
+        with:
+          node-version: 14
 
       # 部署到 GitHub Pages
       - name: Deploy

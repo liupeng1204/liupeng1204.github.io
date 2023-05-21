@@ -4,7 +4,7 @@
   "author": "liupeng",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "node --openssl-legacy-provider && vuepress build ."
+    "build": "vuepress build ."
   },
   "devDependencies": {
     "vuepress": "1.8.2",

@@ -13,25 +13,22 @@ jobs:
     # 服务器环境：最新版 Ubuntu
     runs-on: ubuntu-latest
 
-    # 指定node版本
-    strategy:
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
-
     steps:
       # 拉取代码
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           persist-credentials: false
 
       # 生成静态文件
       - name: Build
+        with:
+          node-version: "14.x"
         run: npm install && yarn build
 
       # 部署到 GitHub Pages
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@releases/v4.33
         with:
           ACCESS_TOKEN: ${{ secrets.VUEPRESS_PRIVATE_SECRET }} # 也就是我们刚才生成的 secret
           BRANCH: gh-pages # 部署到 gh-pages 分支，因为 main 分支存放的一般是源码，而 gh-pages 分支则用来存放生成的静态文件

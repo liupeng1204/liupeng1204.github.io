@@ -120,8 +120,16 @@ module.exports = {
                                 }
                             ]
                         }, {
-                            title: 'LeetCode算法题',
-                            path: '/docs/note/leetcode/'
+                            title: '代码',
+                            children: [
+                                {
+                                    title: 'LeetCode算法题',
+                                    path: '/docs/note/code/leetcode/'
+                                }, {
+                                    title: '高频手撕代码',
+                                    path: '/docs/note/code/manual/'
+                                }
+                            ]
                         }
                     ]
                 }

@@ -15,7 +15,6 @@ function flat(arr, k) {
     return result
 }
 ```
-
 :::
 
 

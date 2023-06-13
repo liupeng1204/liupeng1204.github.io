@@ -48,6 +48,10 @@ console.log(_person)
 ```
 :::
 
+::: details 浏览器缓存机制
+![img](/img/浏览器缓存机制.png)
+:::
+
 ::: details html5的新特性
 ```text 
 一、绘画 canvas
@@ -81,6 +85,18 @@ sessionStorage ：针对一个session的数据存储
 六、表单控件，calendar、date、time、email、url、search
 
 七、新的技术webworker, websocket, Geolocation
+```
+:::
+
+::: details css3的新特性
+```text
+1.选择器(新增了一些选择器如：p:first-of-type)
+2.新样式(border-radius：创建圆角边框；box-shadow：为元素添加阴影；border-image：使用图片来绘制边框)
+3.transition 过渡(transition： CSS属性，花费时间，效果曲线(默认ease)，延迟时间(默认0))
+4.transform 转换
+5.animation 动画
+6.渐变(background-image: linear-gradient(direction, color-stop1, color-stop2, …) 线性渐变)
+7.布局(flex弹性布局、Grid栅格布局)
 ```
 :::
 
@@ -271,5 +287,11 @@ for(let item of arr) {
  // item 1
 ```
 
+:::
+
+::: details EventLoop事件循环 执行顺序
+```text
+执行顺序：同步代码 > nextTick > Promise> setTimeout
+```
 :::
 

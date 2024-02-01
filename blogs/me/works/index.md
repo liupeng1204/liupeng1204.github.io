@@ -8,6 +8,10 @@ tags:
 ---
 
 
+## 吉太
+### 吉太_ELT自动化测试系统
+![An image](/img/works/吉太_ELT测试系统.png)
+
 ## 全时
 ### 全时_Rooms
 ![An image](/img/works/全时_Rooms.png)

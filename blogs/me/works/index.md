@@ -7,10 +7,29 @@ tags:
  - 简历
 ---
 
+## 联盛
+### 联盛_测算平台
+![An image](/img/works/联盛_测算平台_参数表单.jpg)
+![An image](/img/works/联盛_测算平台_结果页_综合报告.jpg)
+![An image](/img/works/联盛_测算平台_结果页_分时电价.jpg)
+![An image](/img/works/联盛_测算平台_结果页_负荷分析.jpg)
+![An image](/img/works/联盛_测算平台_结果页_运行策略.jpg)
+![An image](/img/works/联盛_测算平台_结果页_储能收益.jpg)
+![An image](/img/works/联盛_测算平台_导出报告_1.jpg)
+![An image](/img/works/联盛_测算平台_导出报告_2.jpg)
+![An image](/img/works/联盛_测算平台_导出报告_3.jpg)
 
+### 联盛_零代码平台
+![An image](/img/works/联盛_资产管理_电站管理_收益计算.jpg)
+![An image](/img/works/联盛_零代码平台_配置管理.jpg)
+![An image](/img/works/联盛_零代码平台_配置管理_素材_组件.jpg)
+![An image](/img/works/联盛_零代码平台_配置管理_素材_过滤器.jpg)
+
+<!--
 ## 吉太
 ### 吉太_ELT自动化测试系统
 ![An image](/img/works/吉太_ELT测试系统.png)
+-->
 
 ## 全时
 ### 全时_Rooms
